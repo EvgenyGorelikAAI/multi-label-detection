@@ -2,6 +2,20 @@
 
 List of publications on Multi Label Detection
 
+## Combining Metric Learning and Attention Heads For Accurate and Efficient Multilabel Image Classification
+
+### [Paper](https://arxiv.org/pdf/2209.06585v2.pdf) | [Repo](https://github.com/openvinotoolkit/deep-object-reid)
+
+### Abstract
+
+[...] In our training strategy, instead of Asymmetric Loss (ASL), which is the de-facto standard for multilabel classification, we introduce its metric learning modification. In each binary classification sub-problem it operates with L2 normalized feature vectors coming from a backbone and enforces angles between the normalized representations of positive and negative samples to be as large as possible. [...]
+
+### Architecture
+
+
+<img src="assets/GAT.png" alt="drawing" width="700"/>
+
+
 ## Visual Attention Consistency under Image Transforms for Multi-Label Image Classification
 
 ### [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Guo_Visual_Attention_Consistency_Under_Image_Transforms_for_Multi-Label_Image_Classification_CVPR_2019_paper.pdf) | [Repo](https://github.com/QData/C-Tran)
